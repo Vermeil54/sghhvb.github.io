@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    width: auto;
+    margin: 40px;
+}
+.image-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-logo img {
+    width: 130px;
+}
+.input-email {
+    position: relative;
+    left: -20px;
+    margin-top: 10px;
+}
+.input-email input {
+    border: solid 1px #BCBCBC;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 8px;
+    background: #F1F1F1;
+    width: 320px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.button-submit {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-submit button {
+    border: solid 1px #0078FF;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: #0078FF;
+    border-radius: 5px;
+    width: 320px;
+    padding: 8px;
+}
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008CFF;
+    margin-top: 10px;
+}
+.button-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.button-create button {
+    border: solid 1px #D1D1D1;
+    background: #fff;
+    padding: 5px;
+    width: 320px;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: 0.1s;
+}
+.button-create button:hover {
+    background-color: #4AFF00;
+}
